@@ -26,3 +26,10 @@ whis func <b>run localhost</b> whis <b>port</b> whot you write in <code>lchost=<
 # _In soon time_
 
 1 - adding a favicon for multiple sites at once
+
+# _How to add .htaccess_
+
+`Htaccess.settings(page_404 = '404.html', html_show='True', safe='True')`
+page_404: 404 error page
+html_show: if True in end link of web site was .html
+safe: if True - Website protection against script injection else - Website dont protection against script injection

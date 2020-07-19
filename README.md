@@ -15,10 +15,10 @@ Use this module, if you have server
 <code>Hixe.sites(main='index.html')</code>
 
 If user <b>run</b> your web page whis this file, code <b>redirection</b> to file whot you write in <code>main=''</code>
-
+If you dont enter main, code find index.html in directory and <b>redirection</b> to them, but id you dont have index file code run any file in `Hixe.sites('main.html')`
 2 - if you want localhost:
 
-<code>Hixe.sites(lchost=8080)</code>>
+<code>Hixe.sites(lchost=8080)</code>
 
 whis func <b>run localhost</b> whis <b>port</b> whot you write in <code>lchost=</code>
 

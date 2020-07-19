@@ -31,7 +31,7 @@ class Hixe():
 		try:
 			if sites['main']:
 				pass
-				#os.system(f'start {os.getcwd()}\\{sites["main"]}')
+				os.system(f'start {os.getcwd()}\\{sites["main"]}')
 
 		except:
 			try:
